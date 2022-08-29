@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796b</color>
+    <color name="colorAccent">#ffc107</color>
+
+    <color name="textPrimary">#FF0A191E</color>
+    <color name="textSecondary">#FF333333</color>
+
+    <!--uCrop Activity-->
+    <color name="ucrop_color_toolbar">@color/colorPrimary</color>
+    <color name="ucrop_color_statusbar">@color/colorPrimaryDark</color>
+    <color name="ucrop_color_toolbar_widget">@color/white</color>
+    <color name="ucrop_color_widget_active">@color/colorAccent</color>
+
+    <color name="button_click">#ffd864</color>
+    <color name="button_material_dark">#ff5a595b</color>
+    <color name="button_material_light">#ffd6d7d7</color>
+    <color name="button_ok">#00c853</color>
+    <color name="button_ok_click">#00a000</color>
+    <color name="button_standard">#ffc107</color>
+
+    <color name="action_text">#ffffff</color>
+    <color name="background">#009688</color>
+    <color name="single">#b2dfdb</color>
+    <color name="multi">#009688</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#F44336</color>
+    <color name="blue">#2196F3</color>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/setting" />
+        <item
+            android:id="@+id/nav_like"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="@string/rate_us" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_textsms_black_24dp"
+            android:title="@string/feedback" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="@string/about_us" />
+    </group>
+</menu>

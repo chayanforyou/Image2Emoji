@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="487"
+    android:viewportHeight="486">
+    <path
+        android:fillColor="#c1272d"
+        android:pathData="M244,243m-243,0a243,243 0,1 1,486 0a243,243 0,1 1,-486 0" />
+    <path
+        android:fillAlpha="0.18"
+        android:fillColor="#ff000000"
+        android:pathData="M243,0C108.79,0 0,108.79 0,243S108.79,486 243,486Z"
+        android:strokeAlpha="0.18" />
+    <group>
+        <clip-path android:pathData="M244,243m-243,0a243,243 0,1 1,486 0a243,243 0,1 1,-486 0 M 0,0" />
+        <path
+            android:fillColor="#f2f2f2"
+            android:pathData="M45.0,162.0h18.0v297.0h-18.0z" />
+        <path
+            android:fillColor="#f2f2f2"
+            android:pathData="M45.0,162.0h81.0v18.0h-81.0z" />
+        <path
+            android:fillColor="#f2f2f2"
+            android:pathData="M157.0,176.0m-58.5,0.0a58.5,58.5,0,1,1,117.0,0.0a58.5,58.5,0,1,1,-117.0,0.0" />
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M54.5,177"
+            android:strokeWidth="19"
+            android:strokeColor="#f2f2f2" />
+        <path
+            android:fillColor="#f2f2f2"
+            android:pathData="M310.0,176.0m-40.0,0.0a40.0,40.0,0,1,1,80.0,0.0a40.0,40.0,0,1,1,-80.0,0.0" />
+        <path
+            android:fillColor="#1a1a1a"
+            android:pathData="M157.0,176.0m-23.0,0.0a23.0,23.0,0,1,1,46.0,0.0a23.0,23.0,0,1,1,-46.0,0.0" />
+        <path
+            android:fillColor="#1a1a1a"
+            android:pathData="M310.0,176.0m-18.0,0.0a18.0,18.0,0,1,1,36.0,0.0a18.0,18.0,0,1,1,-36.0,0.0" />
+        <path
+            android:fillColor="#f2f2f2"
+            android:pathData="M90.9,253.52c7.39,-9.63,51.47,32.23,110.92,37.22,93.64,7.86,153.25,-81.8,173.74,-65.11,17.63,14.37,-3.92,99.19,-62.88,130.79C241.94,394.35,156,334.91,122.11,302,104.76,285.12,85.67,260.33,90.9,253.52Z" />
+    </group>
+</vector>

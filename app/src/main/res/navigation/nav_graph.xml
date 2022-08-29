@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="me.chayan.image2emoji.view.HomeFragment"
+        android:label="@string/label_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_nav_Home_to_nav_multi_emoji"
+            app:destination="@id/nav_multi_emoji" />
+
+        <action
+            android:id="@+id/action_nav_Home_to_nav_single_emoji"
+            app:destination="@id/nav_single_emoji" />
+
+        <action
+            android:id="@+id/action_nav_Home_to_nav_single_emoji2"
+            app:destination="@id/nav_single_emoji2" />
+
+        <action
+            android:id="@+id/action_nav_Home_to_nav_single_emoji_color"
+            app:destination="@id/nav_single_emoji_color" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_multi_emoji"
+        android:name="me.chayan.image2emoji.view.MultiEmojiFragment"
+        android:label="@string/multi_emoji"
+        tools:layout="@layout/fragment_multi_emoji" />
+
+    <fragment
+        android:id="@+id/nav_single_emoji"
+        android:name="me.chayan.image2emoji.view.SingleEmojiFragment"
+        android:label="@string/single_emoji"
+        tools:layout="@layout/fragment_single_emoji" />
+
+    <fragment
+        android:id="@+id/nav_single_emoji2"
+        android:name="me.chayan.image2emoji.view.SingleEmoji2Fragment"
+        android:label="@string/single_emoji_2"
+        tools:layout="@layout/fragment_single_emoji2" />
+
+    <fragment
+        android:id="@+id/nav_single_emoji_color"
+        android:name="me.chayan.image2emoji.view.SingleEmojiColorFragment"
+        android:label="@string/single_emoji_multicolor"
+        tools:layout="@layout/fragment_single_emoji_color" />
+
+</navigation>
