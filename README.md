@@ -21,11 +21,11 @@ Image2Emoji support 4 amazing ways for converting Image to Emoji
 
    Multi Emoji   |      Single Emoji (Size)     |
 :---------------:|:----------------------------:|
-<img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/1.webp" width=234px> <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/2.webp" width=234px>  |  <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/3.webp" width=234px> <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/4.webp" width=234px>
+<img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/1.webp" width=120px> <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/2.webp" width=120px>  |  <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/3.webp" width=120px> <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/4.webp" width=120px>
 
    Single Emoji (Brightness)  |     Single Emoji (Color)     |
 :----------------------------:|:----------------------------:|
-<img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/5.webp" width=234px> <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/6.webp" width=234px>  |  <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/7.webp" width=234px> <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/8.webp" width=234px>
+<img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/5.webp" width=120px> <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/6.webp" width=120px>  |  <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/7.webp" width=120px> <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/8.webp" width=120px>
 
 ### 💻 Usage
 
