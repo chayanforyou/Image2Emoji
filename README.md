@@ -27,6 +27,8 @@ Image2Emoji support 4 amazing ways for converting Image to Emoji
 :----------------------------:|:----------------------------:|
 <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/5.webp" width=140px> <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/6.webp" width=140px>  |  <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/7.webp" width=140px> <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/8.webp" width=140px>
 
+[Sample APK](https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/apk/Image2Emoji_debug_1.0.0.apk)
+
 ### 💻 Usage
 
 - Select a method
