@@ -42,7 +42,7 @@ class HomeFragment : Fragment() {
         }
 
         binding.buttonSingle.setOnClickListener {
-            findNavController().navigate(HomeFragmentDirections.actionNavHomeToNavSingleEmoji())
+            findNavController().navigate(HomeFragmentDirections.actionNavHomeToNavSingleEmojiSize())
         }
 
         binding.buttonSingle2.setOnClickListener {

@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Minion/.gradle/caches/transforms-3/bf8a1e590785c3385cfacab41836e29e/transformed/core-1.8.0/res/layout/notification_template_custom_big.xml" value="0.12697734074390765" />
+        <entry key="..\:/Users/Minion/Documents/Android/Image2Emoji/app/src/main/res/drawable/cursor_drawable.xml" value="0.23" />
         <entry key="..\:/Users/Minion/Documents/Android/Image2Emoji/app/src/main/res/drawable/design_fab_background.xml" value="0.23" />
         <entry key="..\:/Users/Minion/Documents/Android/Image2Emoji/app/src/main/res/drawable/design_snackbar_background.xml" value="0.23" />
         <entry key="..\:/Users/Minion/Documents/Android/Image2Emoji/app/src/main/res/drawable/ic_arrow_back_black_24dp.xml" value="0.262" />
@@ -50,6 +51,7 @@
         <entry key="..\:/Users/Minion/Documents/Android/Image2Emoji/app/src/main/res/layout/fragment_single_emoji.xml" value="0.27233860624198375" />
         <entry key="..\:/Users/Minion/Documents/Android/Image2Emoji/app/src/main/res/layout/fragment_single_emoji2.xml" value="0.26798485485906604" />
         <entry key="..\:/Users/Minion/Documents/Android/Image2Emoji/app/src/main/res/layout/fragment_single_emoji_color.xml" value="0.27233860624198375" />
+        <entry key="..\:/Users/Minion/Documents/Android/Image2Emoji/app/src/main/res/layout/fragment_single_emoji_size.xml" value="0.27233860624198375" />
         <entry key="..\:/Users/Minion/Documents/Android/Image2Emoji/app/src/main/res/layout/main_activity_drawer.xml" value="0.33177083333333335" />
         <entry key="..\:/Users/Minion/Documents/Android/Image2Emoji/app/src/main/res/layout/nav_header.xml" value="0.32533197139938713" />
         <entry key="..\:/Users/Minion/Documents/Android/Image2Emoji/app/src/main/res/layout/nav_header_main.xml" value="0.33" />

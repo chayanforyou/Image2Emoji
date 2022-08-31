@@ -16,8 +16,8 @@
             app:destination="@id/nav_multi_emoji" />
 
         <action
-            android:id="@+id/action_nav_Home_to_nav_single_emoji"
-            app:destination="@id/nav_single_emoji" />
+            android:id="@+id/action_nav_Home_to_nav_single_emoji_size"
+            app:destination="@id/nav_single_emoji_size" />
 
         <action
             android:id="@+id/action_nav_Home_to_nav_single_emoji2"
@@ -36,10 +36,10 @@
         tools:layout="@layout/fragment_multi_emoji" />
 
     <fragment
-        android:id="@+id/nav_single_emoji"
-        android:name="me.chayan.image2emoji.view.SingleEmojiFragment"
+        android:id="@+id/nav_single_emoji_size"
+        android:name="me.chayan.image2emoji.view.SingleEmojiSizeFragment"
         android:label="@string/single_emoji"
-        tools:layout="@layout/fragment_single_emoji" />
+        tools:layout="@layout/fragment_single_emoji_size" />
 
     <fragment
         android:id="@+id/nav_single_emoji2"
