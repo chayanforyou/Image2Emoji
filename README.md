@@ -53,10 +53,3 @@ Be comfortable you can test all options for take best results
 ### 🐬 Contribute
 
 You can easily get involved in this project and help.
-
-### 🙏 Thanks To
-
-- ArthurHub
-- chrisbanes
-- EmojiOne
-- warkiz
