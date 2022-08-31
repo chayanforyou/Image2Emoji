@@ -12,8 +12,8 @@ android {
         minSdk 19
         targetSdk 32
         versionCode 1
-        versionName "1.0"
-
+        versionName "1.0.0"
+        vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -32,6 +32,16 @@ android {
     }
     buildFeatures {
         viewBinding true
+    }
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                def str = variant.buildType.name
+                def fileName = "Image2Emoji_${str}_${defaultConfig.versionName}.apk"
+                output.outputFileName = fileName
+            }
+        }
     }
 }
 
