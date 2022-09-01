@@ -20,8 +20,8 @@
             app:destination="@id/nav_single_emoji_size" />
 
         <action
-            android:id="@+id/action_nav_Home_to_nav_single_emoji2"
-            app:destination="@id/nav_single_emoji2" />
+            android:id="@+id/action_nav_Home_to_nav_single_emoji_brightness"
+            app:destination="@id/nav_single_emoji_brightness" />
 
         <action
             android:id="@+id/action_nav_Home_to_nav_single_emoji_color"
@@ -42,10 +42,10 @@
         tools:layout="@layout/fragment_single_emoji_size" />
 
     <fragment
-        android:id="@+id/nav_single_emoji2"
-        android:name="me.chayan.image2emoji.view.SingleEmoji2Fragment"
+        android:id="@+id/nav_single_emoji_brightness"
+        android:name="me.chayan.image2emoji.view.SingleEmojiBrightnessFragment"
         android:label="@string/single_emoji_2"
-        tools:layout="@layout/fragment_single_emoji2" />
+        tools:layout="@layout/fragment_single_emoji_brightness" />
 
     <fragment
         android:id="@+id/nav_single_emoji_color"
