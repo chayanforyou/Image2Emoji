@@ -66,7 +66,7 @@ object FileUtil {
                         bitmap.compress(Bitmap.CompressFormat.JPEG, saveQuality, it)
                     }
                     if (saveFormat == "png") {
-                        bitmap.compress(Bitmap.CompressFormat.PNG, saveQuality, it)
+                        bitmap.compress(Bitmap.CompressFormat.PNG, 100, it)
                     }
                 }
             }, onPostExecute = {

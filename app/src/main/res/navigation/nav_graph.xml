@@ -12,20 +12,24 @@
         tools:layout="@layout/fragment_home">
 
         <action
-            android:id="@+id/action_nav_Home_to_nav_multi_emoji"
+            android:id="@+id/action_nav_home_to_nav_multi_emoji"
             app:destination="@id/nav_multi_emoji" />
 
         <action
-            android:id="@+id/action_nav_Home_to_nav_single_emoji_size"
+            android:id="@+id/action_nav_home_to_nav_single_emoji_size"
             app:destination="@id/nav_single_emoji_size" />
 
         <action
-            android:id="@+id/action_nav_Home_to_nav_single_emoji_brightness"
+            android:id="@+id/action_nav_home_to_nav_single_emoji_brightness"
             app:destination="@id/nav_single_emoji_brightness" />
 
         <action
-            android:id="@+id/action_nav_Home_to_nav_single_emoji_color"
+            android:id="@+id/action_nav_home_to_nav_single_emoji_color"
             app:destination="@id/nav_single_emoji_color" />
+
+        <action
+            android:id="@+id/action_nav_home_to_nav_setting"
+            app:destination="@id/nav_setting" />
 
     </fragment>
 
@@ -52,5 +56,11 @@
         android:name="me.chayan.image2emoji.view.SingleEmojiColorFragment"
         android:label="@string/single_emoji_multicolor"
         tools:layout="@layout/fragment_single_emoji_color" />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="me.chayan.image2emoji.view.SettingFragment"
+        android:label="@string/label_setting"
+        tools:layout="@layout/fragment_setting" />
 
 </navigation>

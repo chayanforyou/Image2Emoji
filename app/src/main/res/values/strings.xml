@@ -3,60 +3,54 @@
 
     <!-- Strings used for fragments for navigation -->
     <string name="label_home"> </string>
+    <string name="label_setting">Setting</string>
     <string name="multi_emoji">Multi Emoji</string>
     <string name="single_emoji">Single Emoji (Size)</string>
     <string name="single_emoji_2">Single Emoji (Brightness)</string>
     <string name="single_emoji_multicolor">Single Emoji (Color)</string>
 
+    <!-- Drawer Header -->
     <string name="convert_image_to_emoji_hed">Image2Emoji</string>
     <string name="make_love_with_emoji">Make love with emoji</string>
 
+    <!-- Drawer Menu Item -->
     <string name="setting">Setting</string>
-    <string name="rate_us">Rate us</string>
-    <string name="feedback">Feedback</string>
-    <string name="about_us">About Us</string>
+    <string name="star_us">Star Repo</string>
 
+    <!-- Colors Name -->
     <string name="red">Red</string>
     <string name="green">Green</string>
     <string name="blue">Blue</string>
 
     <string name="_28">28</string>
-    <string name="about">About Us</string>
-    <string name="alphabet_sort">alphabet sort</string>
+    <string name="jpg">JPG</string>
+    <string name="png">PNG</string>
     <string name="open">Open</string>
-    <string name="back">BACK</string>
-    <string name="background">background</string>
-    <string name="better_use_black_or_withe">Better Use Black Or Withe</string>
-    <string name="brightness">Brightness</string>
+    <string name="save">Save</string>
     <string name="cancel">Cancel</string>
-    <string name="email">Email:</string>
-    <string name="emoji_size">Emoji Size</string>
-    <string name="feedbackt">Feedback:</string>
-    <string name="if_select_dark_background_better_enable_inverse_method">if select dark background better enable inverse method</string>
-    <string name="image_background_color">Image Background Color</string>
-    <string name="inverse_method">Inverse method</string>
-    <string name="just_type_one_emoji">Just Type One Emoji</string>
-    <string name="more_resolution_need_more_time">More Resolution Need More Time</string>
-    <string name="resolution">Resolution</string>
-    <string name="save">save</string>
-    <string name="save_file_fromat">Save File Fromat</string>
-    <string name="save_file_quality">save file quality</string>
-    <string name="save_sec">Successfully Image Saved To</string>
+    <string name="convert">Convert</string>
     <string name="save_to">Saved To</string>
     <string name="saving">Saving....</string>
-    <string name="search_menu_title">Search</string>
-    <string name="select_a_emoji_for_converting">Select a Emoji For Converting</string>
-    <string name="send">send</string>
-    <string name="setting_note">Note:\n\n PNG format have more quality and lower size to save.\n\n but might yon can\'t access to saved image from default gallery application, so you need access to that from saved folder with filemanager application.</string>
-    <string name="convert">Convert</string>
+    <string name="brightness">Brightness</string>
+    <string name="emoji_size">Emoji Size</string>
+    <string name="resolution">Resolution</string>
     <string name="converting">Converting....</string>
-    <string name="convertingc">Converting Canceled</string>
-    <string name="convert_image_to_emoji">Convert Image To Emoji</string>
-    <string name="no_permissions">Cancelling, required permissions are not granted</string>
     <string name="default_is_28">Default is 28</string>
-    <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="generate_emoji_metod">Generate Emoji Metod</string>
-    <string name="pick_image_intent_chooser_title">Select source</string>
+    <string name="inverse_method">Inverse method</string>
+    <string name="save_file_format">Save File Format</string>
+    <string name="save_file_quality">Save file quality</string>
+    <string name="save_sec">Successfully Image Saved To</string>
+    <string name="converting_cancel">Converting Canceled</string>
+    <string name="just_type_one_emoji">Just Type One Emoji</string>
     <string name="pre_convert_setting">Pre Convert Setting ⬇</string>
+    <string name="generate_emoji_method">Generate Emoji Method</string>
+    <string name="image_background_color">Image Background Color</string>
+    <string name="convert_image_to_emoji">Convert Image To Emoji</string>
+    <string name="better_use_black_or_withe">Better Use Black Or Withe</string>
+    <string name="select_a_emoji_for_converting">Select a Emoji For Converting</string>
+    <string name="more_resolution_need_more_time">More Resolution Need More Time</string>
+    <string name="no_permissions">Cancelling, required permissions are not granted</string>
+    <string name="desc_inverse_method">if select dark background better enable inverse method</string>
+    <string name="setting_note">Note:\n\n PNG format have more quality and lower size to save.\n\n but might yon can\'t access to saved image from default gallery application, so you need access to that from saved folder with filemanager application.</string>
 
 </resources>

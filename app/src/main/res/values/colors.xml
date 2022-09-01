@@ -7,6 +7,7 @@
 
     <color name="textPrimary">#FF0A191E</color>
     <color name="textSecondary">#FF333333</color>
+    <color name="radioColor">#FF4081</color>
 
     <!--uCrop Activity-->
     <color name="ucrop_color_toolbar">@color/colorPrimary</color>

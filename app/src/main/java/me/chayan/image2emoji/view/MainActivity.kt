@@ -1,5 +1,7 @@
 package me.chayan.image2emoji.view
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
@@ -44,45 +46,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         if (!handled) {
             when (item.itemId) {
-                R.id.nav_about -> {
-                    /*val unused = Intent(this@MainActivity, about::class.java).also {
-                        this@MainActivity.intent = it
-                    }
-                    this@MainActivity.startActivity(this@MainActivity.intent)*/
-                }
-                R.id.nav_like -> {
-                    /*val intent = Intent(
-                        "android.intent.action.VIEW",
-                        Uri.parse("market://details?id=" + this@MainActivity.applicationContext.packageName)
-                    )
-                    if (Build.VERSION.SDK_INT >= 21) {
-                        intent.addFlags(1208483840)
-                    } else {
-                        intent.addFlags(1207959552)
-                    }
-                    try {
-                        this@MainActivity.startActivity(intent)
-                    } catch (unused2: ActivityNotFoundException) {
-                        val mainActivity = this@MainActivity
-                        mainActivity.startActivity(
-                            Intent(
-                                "android.intent.action.VIEW",
-                                Uri.parse("http://play.google.com/store/apps/details?id=" + this@MainActivity.applicationContext.packageName)
-                            )
-                        )
-                    }*/
-                }
-                R.id.nav_report -> {
-                    /*val unused3 = Intent(this@MainActivity, feedback::class.java).also {
-                        this@MainActivity.intent = it
-                    }
-                    this@MainActivity.startActivity(this@MainActivity.intent)*/
-                }
                 R.id.nav_setting -> {
-                    /*val unused4 = Intent(this@MainActivity, Setting::class.java).also {
-                        this@MainActivity.intent = it
-                    }
-                    this@MainActivity.startActivity(this@MainActivity.intent)*/
+                    navController.navigate(HomeFragmentDirections.actionNavHomeToNavSetting())
+                }
+                R.id.nav_star -> {
+                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/chayanforyou/Image2Emoji")))
                 }
             }
         }

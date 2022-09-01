@@ -11,13 +11,8 @@ import kotlin.math.ceil
 import kotlin.math.max
 
 object BitmapUtil {
-    fun getBitmap(
-        uri: Uri?,
-        button: Button,
-        button2: Button,
-        button3: Button,
-        context: Context
-    ): Bitmap? {
+
+    fun getBitmap(uri: Uri?, button: Button, button2: Button, button3: Button, context: Context): Bitmap? {
         var bitmap: Bitmap? = null
         if (uri != null) {
             try {
