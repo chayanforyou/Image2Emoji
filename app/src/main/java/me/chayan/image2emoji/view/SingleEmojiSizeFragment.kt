@@ -160,7 +160,6 @@ class SingleEmojiSizeFragment : Fragment() {
             for (y in 0 until bitmapHeight) {
                 val pixel = createScaledBitmap.getPixel(x, y)
                 Color.RGBToHSV(Color.red(pixel), Color.green(pixel), Color.blue(pixel), hsv)
-                //hsv[1] = 0.0f
                 createScaledBitmap.setPixel(x, y, Color.HSVToColor(hsv))
                 pixels.add(Color.HSVToColor(Color.alpha(pixel), hsv))
             }

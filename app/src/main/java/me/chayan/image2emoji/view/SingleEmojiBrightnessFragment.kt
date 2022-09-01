@@ -155,6 +155,7 @@ class SingleEmojiBrightnessFragment : Fragment() {
             for (y in 0 until bitmapHeight) {
                 val pixel = createScaledBitmap.getPixel(x, y)
                 Color.RGBToHSV(Color.red(pixel), Color.green(pixel), Color.blue(pixel), hsv)
+                hsv[1] = 0.0f
                 pixels.add(Color.HSVToColor(Color.alpha(pixel), hsv))
             }
         }
@@ -176,8 +177,10 @@ class SingleEmojiBrightnessFragment : Fragment() {
             var index = lastIndex
             for (top in 0 until height step step) {
                 val pixel = pixels[index]
+
                 var green = Color.green(pixel) - max
                 if (green < 0) green = 0
+
                 paint.colorFilter = LightingColorFilter(View.MEASURED_SIZE_MASK, Color.rgb(green, green, green))
                 canvas.drawBitmap(makeSameColor(pixel), left.toFloat(), top.toFloat(), paint)
                 index += 1
