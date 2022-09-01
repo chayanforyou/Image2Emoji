@@ -24,6 +24,7 @@ import me.chayan.image2emoji.R
 import me.chayan.image2emoji.databinding.FragmentSingleEmojiSizeBinding
 import me.chayan.image2emoji.utils.BitmapUtil
 import me.chayan.image2emoji.utils.FileUtil
+import me.chayan.image2emoji.utils.KeyboardUtil
 import me.chayan.image2emoji.utils.executeAsyncTask
 import me.chayan.image2emoji.widget.ProgressDialog
 import kotlin.math.abs
@@ -65,6 +66,7 @@ class SingleEmojiSizeFragment : Fragment() {
         }
 
         binding.buttonConvertSingle.setOnClickListener {
+            KeyboardUtil.hideKeyboard(it)
             binding.imageViewSingle.setImageBitmap(openedBitmap)
             startConvert()
         }
@@ -159,9 +161,8 @@ class SingleEmojiSizeFragment : Fragment() {
                 val pixel = createScaledBitmap.getPixel(x, y)
                 Color.RGBToHSV(Color.red(pixel), Color.green(pixel), Color.blue(pixel), hsv)
                 //hsv[1] = 0.0f
-                val hsvToColor = Color.HSVToColor(Color.alpha(pixel), hsv)
                 createScaledBitmap.setPixel(x, y, Color.HSVToColor(hsv))
-                pixels.add(hsvToColor)
+                pixels.add(Color.HSVToColor(Color.alpha(pixel), hsv))
             }
         }
         val createBitmap = Bitmap.createBitmap(bitmapWidth * step, bitmapHeight * step, Bitmap.Config.RGB_565)
@@ -202,8 +203,8 @@ class SingleEmojiSizeFragment : Fragment() {
         if (emoji.isBlank()) emoji = "☺"
         canvas.drawText(
             emoji,
-            (canvas.width / 2).toFloat(),
-            ((canvas.height / 2).toFloat() - (paint.descent() + paint.ascent()) / 2.0f).toInt().toFloat(), paint
+            (canvas.width / 2.0f),
+            ((canvas.height / 2.0f) - (paint.descent() + paint.ascent()) / 2.0f), paint
         )
         return createBitmap
     }
