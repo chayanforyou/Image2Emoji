@@ -15,8 +15,7 @@ Image2Emoji support 4 amazing ways for converting Image to Emoji
 
 - [x] SINGLE EMOJI (Color): You can select one emoji and application create your photo with single emoji by changing color of emoji. Don't forget this method totally missed real color of emoji we recommend use of emoji with special shape like heart, Objects
 
-
-### 🎬 Preview
+### 🖼️ Preview
 
 
    Multi Emoji   |      Single Emoji (Size)     |
@@ -28,6 +27,9 @@ Image2Emoji support 4 amazing ways for converting Image to Emoji
 <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/5.webp" width=140px> <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/6.webp" width=140px>  |  <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/7.webp" width=140px> <img src="https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/images/8.webp" width=140px>
 
 [Sample APK](https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/apk/Image2Emoji_debug_1.0.0.apk)
+
+### 🎬 YouTube
+Video Link: https://youtu.be/zoM_DngA_Lg
 
 ### 💻 Usage
 
