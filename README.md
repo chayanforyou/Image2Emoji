@@ -29,7 +29,7 @@ Image2Emoji support 4 amazing ways for converting Image to Emoji
 [Sample APK](https://raw.githubusercontent.com/chayanforyou/Image2Emoji/master/apk/Image2Emoji_debug_1.0.0.apk)
 
 ### 🎬 YouTube
-Video Link: https://youtu.be/zoM_DngA_Lg
+Video Link: https://youtu.be/xnaJbXbfmho
 
 ### 💻 Usage
 
